@@ -1,0 +1,6 @@
+Notes
+
+Si on définit le type d'une fonction, il faut absolument faire un 'return()' qui renvoie le même type que celui de la fonction.
+
+Si on utilise int comme type de fonction, on met return(0) pour satisfaire le int. Si c'est un void on est pas obligé. 
+

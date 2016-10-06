@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ ${#1} -lt 1 ]
+then
+    echo "Error."
+    exit 
+else
+    eval echo "~$1
+fi
+	
