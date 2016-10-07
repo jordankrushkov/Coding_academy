@@ -1,0 +1,20 @@
+void	 modif_param(char c)
+{
+  c = 'G';
+}
+
+void	my_putchar(char c)
+{
+  write(1, &c, 1);
+}
+
+int	main(void)
+{
+  char a;
+
+  a = 'F';
+  /* my_putchar(a); */
+  /* my_putchar('\n'); */
+  modif_param(a);
+
+}
